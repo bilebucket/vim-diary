@@ -30,4 +30,7 @@ highlight link diaryDate	Constant
 syntax match diaryTime		"\d\+:\d\+:\d\+"
 highlight link diaryTime	Constant 
 
+syntax match diaryTag		"#[a-zA-Z]\+"
+highlight diaryTag		cterm=reverse ctermfg=109
+
 let b:current_syntax = "diary"
